@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vite App</title>
+  </head>
+  <body class="bg-zinc-900 p-4 md:px-4 lg:px-80">
+    <h1 class="text-zinc-200 font-extrabold text-5xl text-center">Elemental Slangs <br><span class="text-yellow-400">Generator</span></h1>
+
+    <div class="flex items-center mt-4 justify-center">
+    <input id="input" class=" w-full p-5 mt-8 rounded-2xl text-zinc-200 outline-none font-bold transition-all focus:border-2 focus:border-yellow-400 bg-zinc-800" placeholder="Eg. Vampire">
+    
+    </div>
+    <div id="main">
+   
+    </div>
+    <div id="add" class="add lg:p-4  md:p-3 bg-yellow-400 absolute rounded-full flex items-center justify-center text-zinc-900 bottom-1" style="transform:translate(-50% , -50%); left:50%;">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+      </svg>
+      <div class="label ml-4 font-bold text-[20px]  ">Generate Word</div>
+      </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
